@@ -13,12 +13,15 @@ public class Car implements Runnable {
         CARS_COUNT = 0;
     }
 
+
     private Race race;
     private int speed;
     private String name;
     private int count;
     private CyclicBarrier cb;
     private CountDownLatch cdl;
+
+
 
 
 
