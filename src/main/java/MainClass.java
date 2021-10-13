@@ -7,6 +7,8 @@ public class MainClass {
     public static final int HALF_CARS_COUNT = CARS_COUNT/2;
 
 
+
+
     public static void main(String[] args) {
         System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Подготовка!!!");
         CyclicBarrier cb = new CyclicBarrier(5);
