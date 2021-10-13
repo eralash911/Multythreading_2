@@ -20,6 +20,8 @@ public class Car implements Runnable {
     private CyclicBarrier cb;
     private CountDownLatch cdl;
 
+
+
     public Car(Race race, int speed, CyclicBarrier cb, CountDownLatch cdl) {
         this.race = race;
         this.speed = speed;
