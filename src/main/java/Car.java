@@ -8,6 +8,7 @@ public class Car implements Runnable {
     private static boolean winnerFound;
     private static Lock win = new ReentrantLock();
 
+
     static {
         CARS_COUNT = 0;
     }
